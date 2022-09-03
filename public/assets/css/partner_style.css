@@ -1,0 +1,200 @@
+
+div#example_filter {
+        display: none;
+    }
+.dropdown_position .dropdown-menu {
+    position: absolute !important;
+    left: -18px !important;
+    top: 18px !important;
+    z-index: 1000;
+    display: flex;
+    padding: 0.5rem 0 !important;
+    margin: 0;
+    font-size: 0.875rem;
+    color: #7b809a;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 solid transparent;
+    border-radius: 0.375rem;
+}
+div#datatable_wrapper {
+    padding-bottom: 15px;
+}
+
+.exportPopupBtn{
+    top: 15px;
+    position: absolute !important;
+    right: 43px;
+    z-index: 999;
+}
+.information_dataTables div#example_length {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.formProgress {
+    background-color: #fff;
+}
+.formProgress {
+    padding: 14px 20px;
+    border-top: 1px solid #eee;
+}
+.formtopcont p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #565252;
+    margin-top: 3px;
+    font-weight: 500;
+}
+.formBgcolor {
+    background-color: #f7f7f7;
+}
+.modal-body form {
+    padding: 0px 0px;
+    /* box-shadow: 0px 0px 20px 0 #eee; */
+}
+.formProgress.manForm {
+    padding-bottom: 10px;
+}
+.formProgressBtn {
+    background-color: #eee;
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn.savepopupbtn {
+    background-color: #00ade6;
+    color: #fff;
+    border: 2px solid #00ade6;
+}
+.popupbtn_mrgn button:first-child {
+    margin-right: 10px;
+}
+.exportPopupBtn a.btn {
+    background: #00ade6;
+}
+select .classic{
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select.classic {
+    background-image: linear-gradient( 
+45deg, transparent 50%, #000000 50%), linear-gradient( 
+135deg, black 50%, transparent 50%), linear-gradient(to right, #f5f5f5, #ffffff);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+    background-size: 7px 6px, 6px 7px, 3em 3.5em;
+    background-repeat: no-repeat;
+}
+select.classic option{
+    line-height: 22px;
+}
+.formstap {
+    margin-right: 42px;
+}
+.formstap .stepstart{
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+.formstap .stepstart li{
+color: #181818;
+padding-right: 10px;
+}
+
+.main_menu .nav-item {
+    padding-right: 6px !important;
+}
+
+/***************Support page ******************/
+.downloadappSection .appdownTitle{
+  padding: 0 20%;
+}
+.appDownload .app-btn {
+    display: inline-block;
+    border:1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px 0px rgb(119 123 146 / 10%);
+    vertical-align: middle;
+    color: #777B92;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 22.5px 60px;
+    padding-right: 40px;
+    position: relative;
+    background-color: #fff;
+    transition: all .4s ease;
+    margin-bottom: 4px; 
+}
+.appDownload .app-btn i {
+    font-size: 30px;
+    color: #777B92;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    transition: all .4s ease;
+}
+.appDownload .app-btn:hover {
+    color: #777B92;
+    background-color: #f0f2f5;
+    border-color: #d7d7d7;
+}
+.frequent_question .appDownload .app-btn:hover i {
+    color: #777B92;
+}
+.accordion-item {
+    background-color: transparent;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 10px;
+}
+.accordion-item .accordion-button{
+    font-weight: 500;
+    font-family: var(--bs-body-font-family) !important;
+}
+.frequent_question .accordion-header {
+    border: 1px solid #aaa;
+    padding: 0 12px;
+    background: #eeeeee;
+}
+.frequent_question div.accordion-collapse {
+    background: #ffffff;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+    border-top: none;
+    padding: 0 10px;
+}
+
+.modal-header .btn-close {
+    color: #344767;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul.dropdown-menu.drpmenu {
+    padding: 0 !important;
+}
+.dropdown .dropdown-menu:before {
+    top: -20px !important;
+}
+.dropdown .dropdown-menu.dropdown-menu-end {
+    top: 23px !important;
+    padding: 0;
+}
+ul.dropdown-menu.dropdown-menu-end.me-sm-n4.show li.profiledropMenu a.dropdown-item {
+    padding: 15px 15px !important;
+    border-radius: 0;
+    padding-bottom: 0 !important;
+}
+
+

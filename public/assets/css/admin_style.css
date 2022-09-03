@@ -1,0 +1,211 @@
+
+thead tr th {
+    white-space: nowrap;
+}
+tbody tr td {
+    white-space: nowrap;
+}
+.exportPopupBtn{
+	top: 15px;
+    position: absolute !important;
+    right: 0;
+    z-index: 999;
+}
+.information_dataTables div#example_length{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.modal-body form {
+    padding:0px 0px;
+    /*box-shadow: 0px 0px 20px 0 #eee;*/
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn.cancle_btn{
+	border: 2px solid #F44335;
+	background-color: #fff;
+	color: #F44335;
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn{}
+.modal-box .modal-dialog .modal-content .modal-body .btn.cancle_btn:hover{
+    border: 2px solid #F44335;
+    background-color: #F44335;
+    color: #fff;
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn.savepopupbtn{
+    background-color: #00ade6; 
+    color: #fff; 
+    border: 2px solid #00ade6;
+}
+.modal-box .modal-dialog .modal-content .modal-body .btn.savepopupbtn:hover{
+    background-color: #00ade6;
+    color: white;
+     border: 2px solid #00ade6;
+}
+.exportPopupBtn a.btn {
+    background: #00ade6;
+}
+.modalPopupCenter .modal-dialog .modal-body .nav-tabs .nav-item .nav-link{
+    color: #aaa;
+}
+.modalPopupCenter .modal-dialog .modal-body .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #1e1e1e !important;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.lablePapding{
+    padding-top: 10px;
+     font-weight: 600;
+
+}
+
+label{
+    margin-left: 0 !important;
+}
+
+.modal-box.modalPopupCenter .modal-header .btn-close {
+    right: 15px !important;
+}
+div#datatable_wrapper {
+    padding-bottom: 15px;
+}
+
+
+
+
+/********************************/
+.formProgress{
+    padding: 14px 20px;
+    border-top: 1px solid #eee;
+}
+.formProgress.manForm{
+    padding-bottom: 10px;
+}
+/*.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 30px;
+}
+.progress-bar {
+     overflow: inherit !important; 
+}
+.progress{
+    height: 17px;
+    background: #e3e4e5;
+    border-radius: 15px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+    background: transparent;
+}
+.progress .progress-icon,
+.progress .progress-value,
+.progress .progress-last{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid #e3e4e5;
+    position: absolute;
+    top: -9px;
+    right: -5px;
+}
+.progress .progress-icon{
+    right: auto;
+    left: -5px;
+    border: 5px solid #25b90a;
+}
+.progress .progress-last{
+    right: 0;
+    
+}*/
+.formProgressBtn{
+    background-color: #eee;
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+}
+/*@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}*/
+/********************************/
+.formstap {
+    margin-right: 42px;
+}
+.formProgress{
+    background-color: #fff;
+}
+.formtopcont h5{
+    font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+.formtopcont p{
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #565252;
+    margin-top: 3px;
+    font-weight: 500;
+}
+.formstap .stepstart{
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+.formstap .stepstart li{
+color: #181818;
+padding-right: 10px;
+}
+.formBgcolor{
+    background-color: #f7f7f7;
+}
+
+
+
+
+
+select .classic{
+
+  /* styling */
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+/* arrows */
+
+select.classic {
+    background-image: linear-gradient( 
+45deg, transparent 50%, #000000 50%), linear-gradient( 
+135deg, black 50%, transparent 50%), linear-gradient(to right, #f5f5f5, #ffffff);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+    background-size: 7px 6px, 6px 7px, 3em 3.5em;
+    background-repeat: no-repeat;
+}
+
+.popupbtn_mrgn button:first-child{margin-right: 10px;}
+
+select.classic option{
+    line-height: 22px;
+}
